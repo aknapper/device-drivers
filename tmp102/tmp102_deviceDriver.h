@@ -3,7 +3,10 @@
  *
  *  Created on: May 20, 2023
  *      Author: aknapper
+ *
+ *      https://www.ti.com/lit/ds/symlink/tmp102.pdf
  */
+
 #include <stdint.h>
 #include <Stdbool.h>
 
@@ -35,12 +38,5 @@
 #define EM_BIT	4
 
 float byteStreamToDegrees( uint8_t byteArray[] );
-//void setContinuousMode( void );
-//void setExtendedMode( void );
-//void setShutdownMode( void );
-//void setOneShotMode( void );
-//void setThermostatMode( void );
-//void setComparatorMode( void );
-//void setInterruptMode( void );
 
 #endif /* TMP102_DEVICEDRIVER_H_ */
